@@ -2,8 +2,8 @@ resource "azurerm_resource_group" "mahi_01" {
   name     = "rg-mahi"
   location = "central india"
 }
-resource "azurerm_resource_group" "mahi_01" {
-  name     = "rg-mahi"
+resource "azurerm_resource_group" "mahi_02" {
+  name     = "rg-prod"
   location = "central india"
 }
 resource "azurerm_resource_group" "mahi_03" {
